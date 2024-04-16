@@ -1,18 +1,13 @@
-import { View,Text} from 'react-native';
+import {View, Text} from 'react-native';
 
-import Mensagem from './mensagem';
+import styles from './styles';
 
-import styles from './style';
+function Mensagem(nome,sobrenome) {
+return(
+    <View style={styles.viewmensagem}>
+        <Text style={styles.mensagem}>{`Olá ${nome} ${sobrenome}`}</Text>
 
-function Exemplo_2 () {
-    return (
-    <View style={styles.container}>
-        <Text style={styles.titulo}> Exemplo 2</Text>
-
-      <Mensagem />
-
+       
     </View>
-    
-    )
-}
-export default Exemplo_2;
+)
+};
