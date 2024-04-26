@@ -1,18 +1,11 @@
-import { View,Text} from 'react-native';
-
-import Mensagem from './mensagem';
+import { View, Text } from 'react-native';
 
 import styles from './style';
 
-function Exemplo_2 () {
-    return (
-    <View style={styles.container}>
-        <Text style={styles.titulo}> Exemplo 2</Text>
-        <Mensagem nome='Victor' sobrenome='Hugo'/>
-        <Mensagem nome='Vector' idade='23'/>
-        <Mensagem nome='Vyctor' />
+ const Mensagem = ({nome = '', sobrenome = ''}) => (
+    <View style={styles.viewMensage}>
+        <Text style={styles.mensage}>{`Olá ${nome} ${sobrenome} `}</Text>
     </View>
-    
-    )
-}
-export default Exemplo_2;
+);
+ 
+export default Mensagem;

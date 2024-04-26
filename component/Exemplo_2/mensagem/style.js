@@ -1,17 +1,20 @@
-import { StyleSheet } from "react-native-web";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    
-    mensagem: {
+    viewMensage: {
+        backgroundColor:'lightgrey',
+        border:'1px solid black',
+        borderRadius:20,
+        borderColor: 'orange',
+        borderWidth: 2,
+        margin: '10px',
+    },
+    mensage: {
         fontSize: 25,
         margin: 10,
-        color: 'red',
+        color: 'black'
     },
-    viewmensagem: {
-        borderWidth: 2,
-        borderColor: 'Red',
-        borderRadius: 20,
-    }
+    
 });
 
 export default styles;
