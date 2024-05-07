@@ -31,7 +31,21 @@ const styles = StyleSheet.create({
         margin: 10,
         color: 'black'
     },
-    
+   
+    botao: {
+        borderWidth: 3, padding: 10,
+        width: '80%',
+        borderRadius: 20,
+        alignItems: 'center border',
+        borderColor:'#67AB7',
+    },
+    textbotao: {
+    fontSize:25,
+    color:'#67AB7',
+    }
 });
+
+    
+;
 
 export default styles;
