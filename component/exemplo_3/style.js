@@ -34,6 +34,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderColor: '#673ab7',
         backgroundColor: '#673ab7',
+    },
+
+     txtNumero:{
+        fontSize: 30,
+        color: '#673ab7',
+        marginVertical:10,
     }
 });
 
