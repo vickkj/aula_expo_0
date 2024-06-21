@@ -1,21 +1,19 @@
 import { useState } from 'react';
 import { View, Text, Pressable } from 'react-native';
 
-import styles from './styles';
+import styles from './style';
 
 function Atividade_3() {
 
 
     const [numero, setNumero] = useState(0);
 
-    function incremento ()
-    {
-        setNumero(numero + 1);
+    function incremento() {
+        setNumero(numero + 100000);
     }
 
-    function decremento()
-    {
-        setNumero(numero - 1);
+    function decremento() {
+        setNumero(numero - 10);
     }
 
     function zerar() {

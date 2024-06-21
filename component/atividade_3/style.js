@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        display:'flex',
         justifyContent: 'center',
         flex: 1,
         backgroundColor:'#d1c4e9',
@@ -10,9 +9,6 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         alignItems: 'center',
-    },
-    containerNumeros: {
-        display: 'inline-block',
     },
     titulo: {
         color:'#673ab7',
@@ -27,8 +23,7 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#673ab7',
-        marginBottom: 15,
-        display: 'inline-block',
+        marginBottom: 15,    
         margin: 35
     },
     botaoLimpa: {
@@ -51,7 +46,10 @@ const styles = StyleSheet.create({
         fontSize: 35,
         color: 'purple',
         marginVertical: 10,
-    },
+    }, 
+    containerNumeros: {
+        flexDirection: 'row', 
+    }, 
 });
 
 export default styles;
